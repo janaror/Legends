@@ -1,0 +1,8 @@
+return {
+	["Mode0"] = 32,
+	["Mode3"] = 88,
+	["Mode2"] = 83,
+	["FarmDelay"] = 0,
+	["Mode1"] = 65,
+	["ExtraWindUpTime"] = 50,
+}

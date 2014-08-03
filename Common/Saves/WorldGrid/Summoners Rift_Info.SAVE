@@ -1,0 +1,5 @@
+return {
+	["vision"] = "There are 50699 vision points.",
+	["walls"] = "There are 34854 wall points.",
+	["brushes"] = "There are 1765 brush points.",
+}

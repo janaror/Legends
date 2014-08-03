@@ -1,0 +1,1 @@
+return {'TrinketTotemLvl1', 'TrinketTotemLvl2', 'TrinketSweeperLvl2', 'trinkettotemlvl2', }
