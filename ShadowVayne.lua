@@ -1,9 +1,7 @@
 --[[
 
-	Shadow Vayne Script by Superx321
-
-	For Functions & Changelog, check the Thread on the BoL Forums:
-	http://botoflegends.com/forum/topic/18939-shadow-vayne-the-mighty-hunter/
+	Vayne v.1.1  beta
+	
 	]]
 if myHero.charName ~= "Vayne" then return end
 
@@ -13,17 +11,6 @@ ShadowVersion = 1.4
 ------------------------
 ------ MainScript ------
 ------------------------
-function OnLoad()
-	TCPU = TCPUpdater()
-	TCPU:AddScript("VPrediction","Lib","raw.githubusercontent.com","/Hellsing/BoL/master/common/VPrediction.lua","/Hellsing/BoL/master/version/VPrediction.version","local version", "Free")
-	TCPU:AddScript("SOW","Lib","raw.githubusercontent.com","/Hellsing/BoL/master/common/SOW.lua","/Hellsing/BoL/master/version/SOW.version","local version", "Free")
---~ 	TCPU:AddScript("SourceLib","Lib","raw.githubusercontent.com","/TheRealSource/public/master/common/SourceLib.lua","/TheRealSource/public/master/common/SourceLib.version","local version", "Free")
---~ 	TCPU:AddScript("Selector","Lib","raw.githubusercontent.com","/pqmailer/BoL_Scripts/master/Paid/Selector.lua","/pqmailer/BoL_Scripts/master/Paid/Selector.revision","@version", "VIP")
-	TCPU:AddScript("CustomPermaShow","Lib","raw.githubusercontent.com","/Superx321/BoL/master/common/CustomPermaShow.lua","/Superx321/BoL/master/common/CustomPermaShow.Version","version =", "Free")
-	TCPU:AddScript("ShadowVayneLib","Lib","raw.githubusercontent.com","/Superx321/BoL/master/common/ShadowVayneLib.lua","/Superx321/BoL/master/common/ShadowVayneLib.Version","version =", "Free")
-	if VIP_USER then TCPU:AddScript("Prodiction","Lib","bitbucket.org","/Klokje/public-klokjes-bol-scripts/raw/aef4be4e92a5b1ba70154752c49e4978e7178dd4/Test/Prodiction/Prodiction.lua",nil,"--Prodiction", "VIP", 1.2) end
-	TCPU:AddScript(_OwnEnv,"Script","raw.githubusercontent.com","/Superx321/BoL/master/ShadowVayne.lua","/Superx321/BoL/master/ShadowVayne.Version","ShadowVersion =")
-end
 
 function OnTick()
 	if not _G.ShadowVayneLoaded then
