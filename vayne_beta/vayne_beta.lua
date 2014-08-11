@@ -140,3 +140,19 @@ _G.scriptConfig.permaShow = function(self, pVar)
 end
 
 
+AddLoadCallback(function()
+	DelayAction(function()
+		if Delay then return end
+		Delay = true
+		if Update then
+			local ServerVersion = tonumber(GetWebResult("raw.github.com", "/janaror/Legends/blob/master/vayne_beta/Revision/vayne_beta.version"))
+			if ServerVersion > Version then
+				Print("Update Available.")
+				DownloadFile("https://raw.githubusercontent.com/janaror/Legends/master/vayne_ffs_beta1.1.lua".."?rand"..math.random(1,9999), SCRIPT_PATH.."vayne_ffs_beta1.1.lua", function() Print("Downloaded Update.") end)
+			else
+				Print("No Update Required.")
+			end
+		end
+	end, 1)
+end)
+
