@@ -1,29 +1,5 @@
 --[[
-	Katarina Combo 2.13
-		by eXtragoZ
-		
-	Features:
-		- Full combo: DFG -> Q -> E -> W -> Items -> R
-		- Auto Ignite in the Full combo (by default off)
-		- Supports: Deathfire Grasp, Liandry's Torment, Blackfire Torch, Bilgewater Cutlass, Hextech Gunblade, Blade of the Ruined King, Sheen, Trinity, Lich Bane, Iceborn Gauntlet, Shard of True Ice, Randuin's Omen and Ignite
-		- Harass mode: 
-			- 0: Q 
-			- 1: Q -> W
-			- 2: Q -> E -> W
-		- Delay in W to process the mark of Q unless it going to use R
-		- Stops the Ult if you can kill your target with basic skills
-		- Mark killable target with a combo
-		- Target configuration
-		- Press shift to configure
-   
-	Explanation of the marks:
-		Green circle:  Marks the current target to which you will do the combo
-		Blue circle:  Mark a target that can be killed with a combo, if all the skills were available
-		Red circle:  Mark a target that can be killed using items + 1 hits + Q x2 + Qmark x2 + W x2 + E x2 + R (full duration) + ignite
-		2 Red circles:  Mark a target that can be killed using items + 1 hits + Q + Qmark + W + E + R (7/10 duration) + ignite
-		3 Red circles:  Mark a target that can be killed using items (without on hit items) + Q + Qmark(if e is not on cd) + W(if e is not on cd) + E + R (3/10 duration)(if e is not on cd)
-		
-	Stops the Ult: Q + Qmark + W + E
+Katarina jube combo wombo
 ]]
 if myHero.charName ~= "Katarina" then return end
 --[[		Config		]]     
