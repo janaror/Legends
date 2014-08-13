@@ -6,7 +6,7 @@
 if myHero.charName ~= "Vayne" then return end
 
 _OwnEnv = GetCurrentEnv().FILE_NAME:gsub(".lua", "")
-ShadowVersion = 1.4
+ShadowVersion = 1.1
 
 ------------------------
 ------ MainScript ------
